@@ -81,7 +81,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            tools:text="Last update: 03/08/2020 16:02" />
+            tools:text="Last refresh: 03/08/2020 16:02" />
 
         <Button
             android:id="@+id/bt_update"
@@ -91,7 +91,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/btn_corners_radius"
-            android:text="@string/update"
+            android:text="@string/refresh"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textStyle="bold"

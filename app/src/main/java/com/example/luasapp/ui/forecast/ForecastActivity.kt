@@ -96,7 +96,7 @@ class ForecastActivity : BaseActivity() {
         val date = info.created.toDate(DatePatterns.yyyy_MM_ddTHH_mm_ss) ?: Date()
 
         tv_datetime.text = String.format(
-            getString(R.string.last_update),
+            getString(R.string.last_refresh),
             date.toString(DatePatterns.dd_MM_yyyy_HH_mm)
         )
 
