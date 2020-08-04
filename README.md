@@ -7,8 +7,8 @@ An application that shows the LUAS trams forecast:
 ![](sample.gif)
 
 The app was built using:
-- Kotlin
-- MVVM architecture
-- Hilt as Dependency Injection
-- Retrofit with SimpleXmlConverter
-- Mockk
+- Programming Language: [Kotlin](https://kotlinlang.org)
+- Architecture: [MVVM](https://developer.android.com/jetpack/guide)
+- Dependency injection: [Hilt](https://dagger.dev/hilt/)
+- HTTP Client: [Retrofit](https://github.com/square/retrofit) with [SimpleXmlConverter](https://github.com/square/retrofit/tree/master/retrofit-converters/simplexml)
+- Mocking library: [Mockk](https://mockk.io)
